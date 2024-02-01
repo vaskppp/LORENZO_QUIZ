@@ -15,7 +15,7 @@
 ##
 ## La chaîne de caractère contenu dans _() est éligible à la traduction.
 
-define config.name = _("LORENZO QUIZZ")
+define config.name = _("LORENZO QUIZ")
 
 
 ## Détermine si le titre renseigné plus haut est affiché sur l'écran du menu
@@ -40,7 +40,7 @@ define gui.about = _p("""
 ## l’exécutable. Il ne doit contenir que des caractères ASCII et ne doit pas
 ## contenir d’espace, de virgules ou de points-virgules.
 
-define build.name = "LORENZO_QUIZZ"
+define build.name = "LORENZO_QUIZ"
 
 
 ## Sons et musiques ############################################################
@@ -65,7 +65,7 @@ define config.has_voice = True
 ## diffusé quand le joueur sera sur le menu principal. Ce son se poursuivra dans
 ## le jeu, jusqu’à ce qu'il soit stoppé ou qu’un autre fichier soit joué.
 
-# define config.main_menu_music = "main-menu-theme.ogg"
+define config.main_menu_music = "intro.wav"
 
 
 ## Transitions #################################################################

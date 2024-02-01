@@ -348,13 +348,14 @@ style navigation_button_text:
 ## Utilisé pour afficher le menu principal quand Ren'Py démarre.
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
-
+image mainintro = Movie(channel="mainintro", play="gui/mainintro.ogv")
 screen main_menu():
 
     ## Ceci assure que tout autre screen de menu est remplacé.
     tag menu
 
-    add "lorenzo.PNG"
+    ##add "lorenzo.PNG"
+    add "mainintro" 
 
     ## Cette frame vide obscurcit le menu principal.
     #frame:
@@ -387,6 +388,7 @@ style main_menu_frame:
     yfill True
 
     background "gui/overlay/main_menu.png"
+
 
 style main_menu_vbox:
     xalign 1.0

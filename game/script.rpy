@@ -13,9 +13,12 @@ label victoire:
     return 
 
 label start:
+    stop music
+    
 
     show lorenzor at left with dissolve
-    l "Bienvenue sur le LORENZO QUIZZ"
+    play sound monaco
+    l "Bienvenue sur le LORENZO QUIZ"
 
     jump question1
 
@@ -42,6 +45,7 @@ label question1:
 
 label q2:
     label question2:
+        hide lapini
         hide lapin
         show lorenzor  with  pixellate
         l"Bravo tu as réussis la première question"
