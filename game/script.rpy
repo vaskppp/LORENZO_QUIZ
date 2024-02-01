@@ -251,8 +251,8 @@ label q11:
         jump youdied
 label q12:
     hide australie
-    show cheval
     show lorenzor at right with move
+    show cheval
     l "Quelle est la couleur du cheval blanc d'Henri IV ?"
     $ player_response = None  # Variable pour stocker la réponse du joueur
 
@@ -406,7 +406,7 @@ label q20:
         jump youdied
 
 label q21:
-    hide fleuven
+    hide fleuve
     show math
     show lorenzor at right with dissolve
     hide lorenzor with fade
@@ -479,7 +479,7 @@ label q23:
 
 label q24:
     show lorenzor at right with dissolve
-    hide lorenzor with moveout
+    hide lorenzor with dissolve
     l "Si x = 2^3 et y = 3^2, quelle est la valeur de x^y ?"
     $ player_response = None  # Variable pour stocker la réponse du joueur
 
@@ -747,8 +747,8 @@ label q34:
             $ player_response = "Bataille de Shiloh"
         "Bataille de Fort Sumter":
             $ player_response = "Bataille de Fort Sumter"
-        "Bataille de Spotsylvania Court House":
-            $ player_response = "Bataille de Spotsylvania Court House"
+        "Bataille d'Appomattox Court House":
+            $ player_response = "Bataille d'Appomattox Court House"
         "Bataille de Cold Harbor":
             $ player_response = "Bataille de Cold Harbor"
 
@@ -916,7 +916,7 @@ label q39:
 
 label q40:
     show lorenzor at right with dissolve
-    hide lorenzor with moveout
+    hide lorenzor with dissolve
     l "Quel roi de France a été guillotiné pendant la Révolution française ?"
     $ player_response = None  # Variable pour stocker la réponse du joueur
 
