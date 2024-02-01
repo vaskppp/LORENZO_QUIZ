@@ -9,6 +9,8 @@ label youdied:
     return
 label victoire:
     hide Screen
+    show lorenzo
+    play sound win
     l"GG"
     return 
 
