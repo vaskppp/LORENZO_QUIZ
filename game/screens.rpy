@@ -354,8 +354,10 @@ screen main_menu():
     ## Ceci assure que tout autre screen de menu est remplacé.
     tag menu
 
-    ##add "lorenzo.PNG"
+    
     add "mainintro" 
+    add "lorenzor.PNG"
+    
 
     ## Cette frame vide obscurcit le menu principal.
     #frame:
